@@ -92,7 +92,7 @@ qui do "/Users/user/Dropbox/Econometrics/perserverance/datapreparation_3.do"
 qui do "/Users/user/Dropbox/Econometrics/perserverance/datapreparation_1.do"
 qui do "/Users/user/Dropbox/Econometrics/perserverance/datapreparation_2.do"
 
-
+keep if isInPerinatalWave==1 & pc1 !=. & (perserverance_1_sd !=. | perserverance_2_sd!=.)
 * ------------------------------------------------------------------------------
 * Estimate models 
 * ------------------------------------------------------------------------------
